@@ -1,0 +1,133 @@
+/*大的banner*/
+.banner604 {
+    position: relative;
+}
+.banner604 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url("../images/banner.jpg") top center;
+    
+}
+.main {
+    position: relative;
+}
+.slider {
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle li {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.current {
+    background-color: #b61b1f;
+}
+.arrow-l, .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    background: rgba(0,0,0,.3);
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    text-align: center;
+    font: 500 18px/62px "宋体";
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l:hover, .arrow-r:hover {
+    background: rgba(0,0,0,.4);
+}
+.news {
+    width: 248px;
+    height: 451px;
+    float: right;
+    border: 1px solid #e4e4e4;
+    margin-top: 12px;
+}
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #e4e4e4;　
+}
+.jd-news .dt, .lifeservi .dt {
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px dotted #e8e8e7;　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+}
+.jd-news .dt h3, .lifeservi .dt h3 {
+    float: left;
+    font: 14px/43px "微乳雅黑"; /*有了font,line-height必须写在后面*/
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font: 13px/43px "宋体";
+    margin-right: 15px;
+}
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+.jd-news .dd li {
+    line-height: 28px;
+}
+.jd-news .dd li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.lifeservi {
+    height: 251px;
+    width: 248px;
+    overflow: hidden;
+}
+.lifeservi ul {
+    width: 252px;
+}
+.lifeservi li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    margin-left: -1px;
+    float: left;
+}
+.lifeservi li a {
+    display: block;
+    height: 70px;
+    padding-top: 45px;
+    text-align: center;
+    position: relative;
+}
+.lifeservi li a i {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+}
